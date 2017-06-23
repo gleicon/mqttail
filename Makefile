@@ -1,10 +1,12 @@
+all: deps server
+
 deps:
 	go get -v
 
 test:
 	go test -v -bench=.
 
-all: deps
+server:
 	go build -v -o mqttail
 
 clean:

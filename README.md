@@ -4,7 +4,7 @@ Console client for [mqtt](http://mqtt.org/) written in golang. Tails a topic, in
 
 ### Build
 
-$ make all
+$ make 
 
 ### Usage
 
